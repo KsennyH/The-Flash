@@ -1,0 +1,47 @@
+.new {
+    &__title {
+        margin-bottom: 0.9375rem;
+    }
+    &__img {
+        max-width: 33%;
+        float: left;
+        margin: 0 0.9375rem 0.9375rem 0;
+    }
+    &__text {
+        line-height: 1.5;
+        p + p {
+            margin-top: 0.625rem;
+        }
+    }
+    a {
+        color: $red;
+        font-weight: 400;
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: underline;
+        }
+        
+    }
+    h3 {
+        font-weight: 400;
+    }
+    ul {
+        padding-left: 1.125rem;
+    }
+    li {
+        position: relative;
+        padding-left: 0.9375rem;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0.3125rem;
+            height: 0.3125rem;
+            background-color: $red;
+            border-radius: 50%;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

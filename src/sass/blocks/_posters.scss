@@ -1,0 +1,21 @@
+.posters {
+    &__title {
+        margin-bottom: 0.9375rem;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -0.9375rem;
+    }
+    &__item {
+        flex: 0 0 33.33333%;
+        padding: 0.9375rem;
+    }
+    &__img {
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        height: 25rem;
+        display: block;
+    }
+}

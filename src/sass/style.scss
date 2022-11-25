@@ -1,0 +1,33 @@
+// base
+@import "./base/variables";
+@import "./base/reset";
+@import "./base/base";
+@import "./base/fonts";
+
+// blocks
+@import './blocks/header';
+@import './blocks/navigation';
+@import './blocks/mobile-nav-button';
+@import './blocks/mobile-nav';
+@import './blocks/slider';
+@import './blocks/btn';
+@import './blocks/main-paige';
+@import './blocks/characters';
+@import './blocks/news-column';
+@import './blocks/news-item';
+@import './blocks/title';
+@import './blocks/footer';
+@import './blocks/card';
+@import './blocks/breadcrumbs';
+@import './blocks/main-characters';
+@import './blocks/characters-slider';
+@import './blocks/description';
+@import './blocks/character';
+@import './blocks/gallery';
+@import './blocks/news';
+@import './blocks/pagination';
+@import './blocks/new';
+@import './blocks/posters';
+
+// media
+@import "./base/media";

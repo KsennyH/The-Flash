@@ -1,0 +1,15 @@
+.main-characters {
+    padding: 0 0 3.75rem 0;
+    &__title {
+        margin-bottom: 0.3125rem;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -0.9375rem;
+    }
+    &__item {
+        padding: 0.9375rem;
+        flex: 0 0 25%;
+    }
+}

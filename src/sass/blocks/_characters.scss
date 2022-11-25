@@ -1,0 +1,31 @@
+.characters {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.9375rem;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0.9375rem;
+
+    }
+    &__item {
+        flex: 0 1 33.3%;
+    }
+    &__text {
+        line-height: 1.4;
+        p + p {
+            margin-top: 0.625rem;
+        }
+    }
+    &__link {
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: none;
+        }
+    }
+}
+

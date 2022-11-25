@@ -1,0 +1,44 @@
+.pagination {
+    padding: 0.9375rem 0;
+    font-size: 0.875rem;
+    font-weight: 700;
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__item {
+        margin-right: 0.625rem;
+        &:first-child {
+            margin-right: 1.875rem;
+        }
+        &:last-child {
+            margin-left: 1.125rem;
+        }
+    }
+    &__arrow {
+        &--disabled {
+            opacity: 0.5;
+        }
+    }
+    &__link {
+        padding: 0.3125rem;
+        background-color: $red;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        &--current {
+            background-color: $dark-background;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $dark-background;
+        }
+    }
+    
+}

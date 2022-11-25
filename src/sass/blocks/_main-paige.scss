@@ -1,0 +1,17 @@
+.main-paige {
+    padding: 1.875rem 0 3.75rem 0;
+    &__wrapper {
+        display: flex;
+    }
+    &__characters {
+        flex: 0 0 74%;
+        margin-right: 2%;
+    }
+    &__info {
+        flex: 0 0 74%;
+        margin-right: 2%;
+    }
+    &__news {
+        flex: 0 0 24%;
+    }
+}

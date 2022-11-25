@@ -1,0 +1,13 @@
+.news-column {
+    &__list {
+        background-color: $dark-background;
+        padding: 1.5625rem 0.75rem;
+        color: #fff;
+    }
+    &__title {
+        margin-bottom: 0.9375rem;
+    }
+    &__item + &__item {
+        margin-top: 1.125rem;
+    }
+}

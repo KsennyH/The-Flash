@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('./chunk/head.html', {
+    "title": "The Flash"
+    })
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header__wrapper">
+                    <div class="header__logo logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__img" src="img/logo.png" alt="Логотип сериала">
+                        </a>
+                    </div>
+                    <nav class="header__navigation navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a class="navigation__link navigation__link--active">Главная</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="characters.html">Персонажи</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="news.html">Новости</a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="posters.html">Постеры</a>
+                            </li>
+                        </ul>
+                        <button class="mobile-nav-button js-mobile-btn" type="button">
+                            <span class="mobile-nav-button__icon js-mobile-burger"></span>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="mobile-nav js-mobile-nav">
+            <nav class="mobile-nav__navigation">
+                <ul class="mobile-nav__list">
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="characters.html">Персонажи</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="news.html">Новости</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a class="mobile-nav__link" href="posters.html">Постеры</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="main">
+            <section class="slider">
+                <div class="container-fluid container-fluid--no-padding">
+                    <h2 class="visually-hidden">Слайдер</h2>
+                    <div class="slider__images swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item" style="background-image: url(img/back-slider1.jpg)">
+                                    <div class="slider__inner">
+                                        <p class="slider__text">Сериал "Флэш" продлён на 7 сезон!</p>
+                                        <a class="slider__link btn" href="new.html">Смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item" style="background-image: url(img/back-slider2.jpg)">
+                                    <div class="slider__inner">
+                                        <p class="slider__text">Что известно о седьмом сезоне "Флэша"</p>
+                                        <a class="slider__link btn" href="new.html">Читать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item" style="background-image: url(img/back-slider3.jpg)">
+                                    <div class="slider__inner">
+                                        <p class="slider__text">Стали известны подробности ежегодного кроссовера</p>
+                                        <a class="slider__link btn" href="new.html">Читать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-button-prev">
+                            <img src="img/prev-arrow.svg" alt="">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="img/next-arrow.svg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </section>
+
+            <div class="main-paige">
+                <div class="container">
+                    <div class="main-paige__wrapper">
+                        <section class="main-paige__characters characters">
+                            <div class="characters__wrapper">
+                                <h2 class="characters__title title">Персонажи</h2>
+                                <a class="characters__link" href="#">Все персонажи</a>
+                            </div>
+                            <ul class="characters__list">
+                                <li class="characters__item">
+                                    <div class="card">
+                                        <div class="card__img" style="background-image: url(img/barry.jpg);"></div>
+                                        <div class="card__overlay">
+                                            <a class="card__overlay-link" href="character.html">
+                                                <h3 class="card__name">Барри Аллен / Флэш</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="characters__item">
+                                    <div class="card">
+                                        <div class="card__img" style="background-image: url(img/frost.jpg);"></div>
+                                        <div class="card__overlay">
+                                            <a class="card__overlay-link" href="character.html">
+                                                <h3 class="card__name">Кейтлин Сноу / Киллер Фрост</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="characters__item">
+                                    <div class="card">
+                                        <div class="card__img" style="background-image: url(img/cisco.jpg);"></div>
+                                        <div class="card__overlay">
+                                            <a class="card__overlay-link" href="character.html">
+                                                <h3 class="card__name">Циско Рамон / Вайб</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="characters__item">
+                                    <div class="card">
+                                        <div class="card__img" style="background-image: url(img/airis.jpg);"></div>
+                                        <div class="card__overlay">
+                                            <a class="card__overlay-link" href="character.html">
+                                                <h3 class="card__name">Айрис Уэст</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="characters__item">
+                                    <div class="card">
+                                        <div class="card__img" style="background-image: url(img/joe.jpg);"></div>
+                                        <div class="card__overlay">
+                                            <a class="card__overlay-link" href="character.html">
+                                                <h3 class="card__name">Детектив Джо Уэст</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="characters__item">
+                                    <div class="card">
+                                        <div class="card__img" style="background-image: url(img/kid-flash.jpg);"></div>
+                                        <div class="card__overlay">
+                                            <a class="card__overlay-link" href="character.html">
+                                                <h3 class="card__name">Уолли Уэст / Кид Флэш</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="characters__text">
+                                <p>
+                                    “Флэш” - фантастический супергеройский сериал, основанный на популярных комиксах вселенной DC, является спин-оффом 
+                                    сериала «Стрела» и происходит в той же вселенной. Трижды становился победителем премии «Сатурн» в номинации «Лучший 
+                                    супергеройский сериал». Главную роль в сериале исполняет Грант Гастин.
+                                </p>
+                                <p>
+                                    В детстве Барри Аллен пережил трагедию, отразившуюся на его характере и всей последующей жизни: мать Барри 
+                                    была убита при загадочных обстоятельствах, а его отца признали виновным и посадили в тюрьму. Спустя много лет уже 
+                                    сам Барри занимается расследованием и работает в судебно-медицинской экспертизе.
+                                </p>
+                                <p>
+                                    Во время взрыва ускорителя частиц в научной лаборатории в Барри ударяет молния, после чего он впадает в кому. 
+                                    Очнувшись через девять месяцев, Барри Аллен обретает способность перемещаться быстрее скорости света. Надев костюм 
+                                    супергероя и взяв псевдоним Флэш, Барри использует новую силу для защиты города от преступности и одновременно 
+                                    пытается доказать невиновность своего отца.
+                                </p>
+                            </div>
+                        </section>
+                        <aside class="main-paige__news news-column">
+                            <h2 class="news-column__title title">Новости</h2>
+                            <ul class="news-column__list">
+                                <li class="news-column__item news-item">
+                                    <p class="news-item__text">Добавлена заключительная 22 серия 5 сезона!</p>
+                                    <a class="news-item__link btn btn--link" href="new.html">Смотреть</a>
+                                </li>
+                                <li class="news-column__item news-item">
+                                    <p class="news-item__text">В шестом сезоне “Флэш” получит нового шоураннера.</p>
+                                    <a class="news-item__link btn btn--link" href="new.html">Подробнее</a>
+                                </li>
+                                <li class="news-column__item news-item">
+                                    <p class="news-item__text">18 серия 5 сезона под названием “Желаю удачи” выйдет в эфир 30 апреля 2019 года.</p>
+                                    <a class="news-item__link btn btn--link" href="new.html">Подробнее</a>
+                                </li>
+                                <li class="news-column__item news-item">
+                                    <p class="news-item__text">Сериал “Флэш” продлили на шестой сезон!</p>
+                                    <a class="news-item__link btn btn--link" href="new.html">Подробнее</a>
+                                </li>
+                                <li class="news-column__item news-item">
+                                    <p class="news-item__text">“Флэш” получил номинацию на премию «Nickelodeon Kids' Choice Awards 2019»</p>
+                                    <a class="news-item__link btn btn--link" href="new.html">Подробнее</a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+           
+        </main>
+
+        @@include('./chunk/footer.html')
+    </div>
+    <script src="swiper/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

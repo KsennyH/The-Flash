@@ -1,0 +1,22 @@
+.navigation {
+    &__list {
+        display: flex;
+    }
+    &__item {
+        margin-right: 2.5rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        padding: 0.625rem 2.1875rem;
+        text-decoration: underline;
+        &--active,
+        &:hover,
+        &:focus,
+        &:active {
+            color: $yellow;
+            text-decoration: none;
+        }
+    }
+}

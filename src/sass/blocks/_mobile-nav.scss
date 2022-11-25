@@ -1,0 +1,29 @@
+.mobile-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateX(100%);
+    z-index: 7;
+    transition: transform .5s ease;
+    &.active {
+        transform: translateX(0);
+    }
+    &__navigation {
+        background-color: $dark-background;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7.5rem 0;
+    }
+    &__link {
+        width: 100%;
+        padding: 0.9375rem 1.5625rem;
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $yellow;
+            color: #000;
+        }
+    }
+}
