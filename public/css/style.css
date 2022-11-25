@@ -260,7 +260,7 @@ body {
 }
 
 .mobile-nav {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   -webkit-transform: translateX(100%);
